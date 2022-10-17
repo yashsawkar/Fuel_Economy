@@ -13,5 +13,8 @@ def pre_info():
      
 pre_info()
 
-data_read = pd.read_csv("vehicles.csv")
-print(data_read)
+data = pd.read_csv("vehicles.csv")
+print("This is the head data : \n")
+print(data.head(3))
+print("this is the tail data : \n")
+print(data.tail(3))
