@@ -15,8 +15,8 @@ pre_info()
 
 data = pd.read_csv("vehicles.csv")
 print("This is the head data : \n")
-print(data.head(3))
+print(data.head(6))
 print("this is the tail data : \n")
-print(data.tail(3))
+print(data.tail(6))
 
 print("harshit signed in")
