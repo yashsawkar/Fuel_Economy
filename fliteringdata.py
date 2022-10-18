@@ -35,6 +35,8 @@ print("\n\n")
 # printing the main file
 big_data = pd.read_csv("vehicles.csv")
 print(big_data)
+print("This is all columns and they data type")
+print(big_data.info())
 
 
 
