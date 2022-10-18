@@ -12,8 +12,38 @@ def pre_info():
      
 pre_info()
 
-
 ## Execrate the requied data and place main_vec.csv
+collection = {
+               "Car_type" : [6,5,4],
+               "Mileage" : [14,16,18],
+               "Distance" : [40,5,76]
+               }
+
+data_collection = pd.DataFrame(collection)
+print(data_collection)
+
+data_collection.to_csv("main_vec.csv")
+
+print("\nThe csv file is holding the folloing data for testing purposes : \n")
+
+# print the new csv file
+data =pd.read_csv("main_vec.csv")
+print(data)
+print("\n\n")
+
+
+# printing the main file
+big_data = pd.read_csv("vehicles.csv")
+print(big_data)
+
+
+
+
+
+                  
+
+
+
 
 
 
