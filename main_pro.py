@@ -22,7 +22,25 @@ data = pd.read_csv("vehicles.csv")
 data_segments = data.dropna() 
 
 
+# Making list of all column names
+col = []
+col = list(data.columns)
+
 # Standard procedure
+# Removing the unwanted data segments
+i = 0
+var = col[0]
+size = len(col)
+for index, row in data.iterrows():
+     if row[var] == 0:
+          print(row[var])
+     #if i < size - 1:
+          #i = i + 1
+          #var = col[index+1]     
+
+# Printing all column 
+print(data_segments.head())
+=======
 # Removing the unwanted data segements
 
 
