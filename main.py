@@ -40,7 +40,6 @@ for index, row in data.iterrows():
 
 # Printing all column 
 print(data_segments.head())
-=======
 # Removing the unwanted data segements
 
 
