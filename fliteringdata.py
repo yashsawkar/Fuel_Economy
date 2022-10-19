@@ -9,9 +9,7 @@ def pre_info():
      for i in syn:
           print(i,end="")
           tm.sleep(0.005)
-          
-def interation():
-     pass
+
      
 pre_info()
 
